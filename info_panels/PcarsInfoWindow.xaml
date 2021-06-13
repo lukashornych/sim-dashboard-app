@@ -1,0 +1,31 @@
+﻿<Window x:Class="dashboardapp.PcarsInfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dashboardapp"
+        mc:Ignorable="d"
+        Title="Project Cars info panel" Height="306.992" Width="168" ResizeMode="NoResize" WindowStyle="ToolWindow">
+    <StackPanel Margin="5,5,5,0">
+        <TextBlock Text="Speed (KMH):"/>
+        <TextBlock Text="{Binding Speed}" Foreground="Red" Margin="0,0,0,5"/>
+
+        <TextBlock Text="RPM:"/>
+        <TextBlock Text="{Binding Rpm}" Foreground="Red" Margin="0,0,0,5"/>
+
+        <TextBlock Text="Max RPM:"/>
+        <TextBlock Text="{Binding MaxRpm}" Foreground="Red" Margin="0,0,0,5"/>
+
+        <TextBlock Text="Gear:"/>
+        <TextBlock Text="{Binding Gear}" Foreground="Red" Margin="0,0,0,5"/>
+
+        <TextBlock Text="Fuel level (%):"/>
+        <TextBlock Text="{Binding FuelLevel}" Foreground="Red" Margin="0,0,0,5"/>
+
+        <TextBlock Text="Fuel capacity (L):"/>
+        <TextBlock Text="{Binding FuelCapacity}" Foreground="Red" Margin="0,0,0,5"/>
+
+        <TextBlock Text="Fuel (L):"/>
+        <TextBlock Text="{Binding Fuel}" Foreground="Red" Margin="0,0,0,5"/>
+    </StackPanel>
+</Window>

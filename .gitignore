@@ -1,0 +1,5 @@
+.vs/
+bin/
+obj/
+dashboardapp.sln
+dashboardapp.csproj
